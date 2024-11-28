@@ -1,0 +1,27 @@
+
+---
+title: 每日早报
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日早报</title>
+    <tags>detail干的</tags>
+</head>
+<body>
+    <div style="text-align: center;"> <img src="https://v2.alapi.cn/api/zaobao?token=DjEljCGuSj8tcoSE&format=image"
+            alt="每日早报" height="100%"> </div>
+</body>
+
+</html>
+
+
+作者: 時光
+链接: https://blog.shiguangdev.cn/2024/06/20/b4d1ca345b31/#2-1%E3%80%81-%E4%BB%85%E5%9B%BA%E5%AE%9A%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BF%E9%97%AE
+来源: 時光
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
