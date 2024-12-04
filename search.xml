@@ -4,6 +4,50 @@
   
     
     <entry>
+      <title>随机图片功能测试</title>
+      <link href="/2024/12/04/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
+      <url>/2024/12/04/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="随机图片展示"><a href="#随机图片展示" class="headerlink" title="随机图片展示"></a>随机图片展示</h2><div id="random-image-container" style="text-align: center; margin: 20px 0;">  <img id="random-image" src="" alt="随机图片" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);"></div><script>  // 随机图片 API 示例  const apiURL = "https://api.mmp.cc/api/pcwallpaper?category=cartoon&type=jpg";  // 设置随机图片的 src  const imageElement = document.getElementById("random-image");  imageElement.src = apiURL;  // 处理图片加载错误  imageElement.onerror = () => {    imageElement.alt = "图片加载失败，请刷新页面";  };</script><button onclick="refreshImage()" style="margin: 10px; padding: 10px 20px; border: none; background: #007bff; color: #fff; border-radius: 4px; cursor: pointer;">  换一张图片</button><script>  function refreshImage() {    const timestamp = new Date().getTime(); // 防止缓存    imageElement.src = `${apiURL}?${timestamp}`;  }</script><h1 id="刷新页面重新生成图片"><a href="#刷新页面重新生成图片" class="headerlink" title="刷新页面重新生成图片"></a><center>刷新页面重新生成图片<center></h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 建站测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【每日早报】- 2024-12-04 - 星期三</title>
+      <link href="/2024/12/04/%E4%BB%8A%E6%97%A5%E6%97%A9%E6%8A%A5/"/>
+      <url>/2024/12/04/%E4%BB%8A%E6%97%A5%E6%97%A9%E6%8A%A5/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align: center;">    <img src="https://file.alapi.cn/60s/202412041733248803.png" alt="每日早报" width="100%"></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 每日早报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 每日早报 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>随机视频测试</title>
       <link href="/2024/12/03/%E9%9A%8F%E6%9C%BA%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/"/>
       <url>/2024/12/03/%E9%9A%8F%E6%9C%BA%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</url>
@@ -46,31 +90,6 @@
             <tag> LY </tag>
             
             <tag> 文稿 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>【每日早报】- 2024-12-03 - 星期二</title>
-      <link href="/2024/12/03/%E4%BB%8A%E6%97%A5%E6%97%A9%E6%8A%A5/"/>
-      <url>/2024/12/03/%E4%BB%8A%E6%97%A5%E6%97%A9%E6%8A%A5/</url>
-      
-        <content type="html"><![CDATA[<div style="text-align: center;">    <img src="https://file.alapi.cn/60s/202412031733162404.png" alt="每日早报" width="100%"></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 每日早报 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 每日早报 </tag>
             
         </tags>
       
@@ -145,11 +164,11 @@
       
         <tags>
             
+            <tag> 教学 </tag>
+            
             <tag> 文稿 </tag>
             
             <tag> 古典造型 </tag>
-            
-            <tag> 教学 </tag>
             
         </tags>
       
